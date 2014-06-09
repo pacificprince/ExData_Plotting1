@@ -36,7 +36,7 @@ subdata[,3:9] <- sapply(subdata[,3:9], function(x) as.numeric(as.character(x)))
 #------------------------------------------------------------------------------
 # CREATE PLOT plot3.png
 #------------------------------------------------------------------------------
-png(filename="plot3.png", width=504, height=504)
+png(filename="plot3.png", width=480, height=480)
 plot(subdata$DateTime, subdata$Sub_metering_1, 
      type="l", col="black", 
      xlab="",

@@ -36,7 +36,7 @@ subdata[,3:9] <- sapply(subdata[,3:9], function(x) as.numeric(as.character(x)))
 #------------------------------------------------------------------------------
 # CREATE PLOT plot1.png
 #------------------------------------------------------------------------------
-png(filename="plot1.png", width=504, height=504)
+png(filename="plot1.png", width=480, height=480)
 hist(subdata$Global_active_power, col = "red",
      main = "Global Active Power",
      xlab = "Global Active Power (kilowatts)",

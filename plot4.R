@@ -36,7 +36,7 @@ subdata[,3:9] <- sapply(subdata[,3:9], function(x) as.numeric(as.character(x)))
 #------------------------------------------------------------------------------
 # CREATE PLOT plot4.png
 #------------------------------------------------------------------------------
-png(filename="plot4.png", width=504, height=504)
+png(filename="plot4.png", width=480, height=480)
 par(mfrow=c(2,2))
 plot(subdata$DateTime, subdata$Global_active_power, type="l",
      xlab = "",
